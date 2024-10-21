@@ -1,0 +1,25 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.inner {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assential {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.review-img {
+    margin-top: 19px;
+    margin-bottom: auto;
+}

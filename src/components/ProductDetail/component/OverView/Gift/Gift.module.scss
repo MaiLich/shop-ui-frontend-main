@@ -1,0 +1,97 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    border-radius: 8px;
+    padding: 0 20px 35px 33px;
+    position: relative;
+}
+
+.inner {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.child-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    font-size: 14.6667px;
+    color: #e03e2d;
+    margin: 5px 0px;
+    padding: 0;
+    line-height: 22px;
+}
+
+.detail-content {
+    color: #007edb;
+}
+
+.info-content {
+    color: #000000;
+    font-size: 11pt;
+    margin: 5px 0px;
+    padding: 0;
+    line-height: 22px;
+}
+
+.img-icon {
+    width: 16px;
+    aspect-ratio: auto 16 / 17;
+    height: 17px;
+    margin-right: 5px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.button-gift {
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    background: #fff;
+    left: 0;
+}
+
+.button {
+    height: 32px;
+    color: #0066cc;
+    display: block;
+    margin: 0 auto;
+    max-width: 238px;
+    border: unset;
+    float: left;
+    padding: 0 33px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.btn-name {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.icon-btn {
+    margin-left: 5px;
+    font-size: 14px;
+}

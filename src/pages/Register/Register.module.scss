@@ -1,0 +1,326 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.page-register {
+    max-width: 1185px;
+    min-height: 200px;
+    margin: auto;
+    width: 100%;
+    padding: 40px 15px 100px;
+    text-align: left;
+}
+
+.customer-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-wrapper {
+    width: 57%;
+}
+
+.topic-block {
+    margin: 0 0 25px;
+}
+
+.topic-block-body {
+    text-align: justify;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.img {
+    width: 100%;
+}
+
+form {
+    width: 40%;
+}
+
+.fieldset {
+    margin: 0 0 24px;
+    position: relative;
+}
+
+.page-title {
+    text-align: left;
+    padding: 0;
+    min-height: 50px;
+    margin: 0;
+    border-bottom: 0px;
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.page-title h1 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 0;
+    line-height: 54px;
+    padding: 16px 0;
+    color: #1d1d1f;
+}
+
+.form-fields {
+    border-top: unset;
+    background-color: unset;
+    padding: 0;
+    position: relative;
+}
+
+.first_name {
+    width: 100%;
+    float: left;
+    white-space: unset;
+    text-align: left;
+    position: relative;
+    margin: 0 0 15px;
+    font-size: 0;
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.first_name label {
+    width: 100%;
+    display: block;
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #1d1d1f;
+    margin-bottom: 0;
+    margin: 0 10px 0 0;
+}
+
+.first_name input {
+    width: 100% !important;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    height: 48px;
+    max-width: 100%;
+    background-color: #fff;
+    padding: 8px;
+    padding-left: 16px !important;
+    vertical-align: middle;
+    font-size: 15px !important;
+}
+
+.field-validation-valid {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    color: #4cb17c;
+}
+
+.inputs {
+    white-space: unset;
+    text-align: left;
+    position: relative;
+    margin: 0 0 15px;
+    font-size: 0;
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.gender {
+    width: 100%;
+    display: flex;
+}
+
+.gender label {
+    width: 20%;
+    display: block;
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #1d1d1f;
+    margin-bottom: 0;
+    margin: 0 10px 0 0;
+}
+
+#gender {
+    display: inline-block;
+}
+
+.gender span {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+.inputs.gender input[type='radio'] {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.gender span > * {
+    margin: 0 5px 0 0;
+    display: inline !important;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+.gender > label {
+    display: flex;
+    align-items: center;
+}
+
+.inputs label {
+    width: 100%;
+    display: block;
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #1d1d1f;
+    margin-bottom: 0;
+    margin: 0 10px 0 0;
+}
+
+label {
+    vertical-align: middle;
+}
+
+.date-picker-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.date-of-birth select {
+    max-width: 32%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #86868b;
+    text-transform: capitalize;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('https://shopdunk.com/images/uploaded-source/icon/arrow-down.png');
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position-x: 84%;
+    background-position-y: 20px;
+    background-color: #fff;
+    padding: 6px;
+    padding-left: 15px;
+    margin: 0;
+    width: 100% !important;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    height: 48px;
+    vertical-align: middle;
+    word-wrap: normal;
+}
+
+.inputs input[type='email'],
+input[type='tel'],
+input[type='text'],
+input[type='password'] {
+    width: 100% !important;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    height: 48px;
+    max-width: 100%;
+    background-color: #fff;
+    padding: 8px;
+    padding-left: 16px !important;
+    vertical-align: middle;
+    font-size: 15px;
+    color: #777;
+    overflow: visible;
+}
+
+.required {
+    display: none;
+    margin: 0 -8px 0 3px;
+    vertical-align: top;
+    font-size: 20px;
+    font-weight: normal;
+    color: #e4434b;
+}
+
+.luu_y {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4b4b4b;
+    text-align: left;
+    padding: 5px 10px;
+    background: #f5f5f7;
+    margin: 0 !important;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.captcha-box {
+    text-align: center;
+    line-height: 0;
+}
+
+.captcha-box > div {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.buttons {
+    text-align: center;
+    margin: 0 0 30px;
+    margin-bottom: 16px;
+}
+
+.register-next-step-button {
+    background: #0066cc;
+    border-radius: 8px;
+    width: 100%;
+    min-height: 48px;
+    min-width: 140px;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttons-forgot {
+    display: flex;
+    align-items: baseline;
+}
+
+.buttons-forgot label {
+    color: #1d1d1f;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.link_access {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #0066cc;
+    text-transform: capitalize;
+    padding-left: 10px;
+    user-select: none;
+}

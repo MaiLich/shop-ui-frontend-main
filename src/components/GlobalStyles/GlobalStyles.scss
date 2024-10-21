@@ -1,0 +1,97 @@
+@import 'normalize.css';
+
+:root {
+    --font-family: 'ProximaNova', sans-serif;
+    --height-header: 64px;
+    --white: #fff;
+    --primary: #fe2c55;
+    --color-header: #515154;
+    --space-black: #4c4b49;
+    --space-gray: #b1b3b6;
+    --silver: #e3e5e3;
+    --gold: #fcebd3;
+    --deep-purple: #61586b;
+    --black: #000000;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #ebb9b0;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #b0e1c4;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --midnight: #000;
+    --starlight: #f4e9d4;
+    --sky-blue: #c9d9e5;
+    --forest-green: #3f504e;
+    --ink: #53505b;
+    --umber: #905647;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    overflow-y: overlay;
+    background-color: #f5f5f7;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+a,
+button {
+    user-select: none !important;
+}
+//Font
+
+@font-face {
+    font-family: ProximaNova;
+    src: url('/assets/fonts/Proxima-Nova-Regular.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url('/assets/fonts/ProximaNova-Semibold.woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url('/assets/fonts/Proxima-Nova-Bold.woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: SofiaPro;
+    src: url('/assets/fonts/sofiapro-bold.woff');
+    font-weight: 700;
+}

@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.left-btn,
+.right-btn {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    z-index: 1;
+    opacity: 0.1;
+    border-radius: 100%;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.4;
+    }
+}
+
+.left-btn {
+    left: 56px;
+}
+
+.right-btn {
+    right: 56px;
+}
+
+.image {
+    width: 100%;
+}

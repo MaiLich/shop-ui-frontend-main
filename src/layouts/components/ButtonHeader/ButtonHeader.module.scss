@@ -1,0 +1,16 @@
+.wrapper {
+    height: 64px;
+    padding: 22px 16px;
+    margin: 0px 0.5em;
+    width: max-content;
+    text-align: center;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 1.5rem;
+    color: #d2d2d7;
+    cursor: pointer;
+    &:hover {
+        background-color: #626265;
+        color: #fff;
+    }
+}

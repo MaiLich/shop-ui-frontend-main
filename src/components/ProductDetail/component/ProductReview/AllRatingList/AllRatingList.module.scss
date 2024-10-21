@@ -1,0 +1,230 @@
+.wrapper {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid #ebebeb;
+    margin-top: 0;
+    padding: 16px 16px 0px 0px;
+}
+
+.rating-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 18px;
+}
+
+.rating-product {
+    height: auto;
+    margin-bottom: 13px;
+    width: 20%;
+    flex-direction: column;
+    align-items: start;
+}
+
+.rating-review {
+    width: 100%;
+    color: #000000;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.reviews {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.re-content {
+    width: 100%;
+    font-size: 10px;
+    line-height: 20px;
+    color: #515154;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-review {
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.progress {
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.title {
+    margin: -2px 0px 0px 0px;
+    padding: 0;
+    color: #777;
+}
+
+.color-start {
+    color: #feb700;
+    font-size: 16px;
+    padding-left: 4px;
+    &::before {
+        content: '';
+        background: url('https://shopdunk.com/images/uploaded-source/icon/icon-star-1.png') left center no-repeat;
+        background-position: 30%;
+        padding: 3px 8px;
+    }
+}
+
+.progress-bar {
+    height: 12px;
+    margin: 0 0 0 8px;
+    width: 92%;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0.75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+
+.bar {
+    height: 12px;
+    background: #feb700;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    transition: width 0.6s ease;
+}
+
+.review-page {
+    width: 100%;
+}
+
+.title-review {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #1d1d1f;
+    text-align: left;
+    margin: 0 0 20px;
+}
+
+.str-title {
+    text-align: left;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1d1d1f;
+    font-weight: 700;
+}
+
+//star rating
+
+.review-rating {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 4px;
+    padding-bottom: 10px;
+}
+
+.name-description {
+    margin: 0 0 5px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    color: #515154;
+    display: flex;
+    align-items: center;
+}
+
+.star-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.star {
+    margin-left: 4px;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.active {
+    white-space: nowrap;
+    color: #feb700;
+}
+
+.no-active {
+    white-space: nowrap;
+    color: lightgrey;
+    &:hover {
+        color: #feb700;
+    }
+}
+
+.input-name {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.input-name .label {
+    width: 100%;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    color: #515154;
+    display: flex;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.inner-input-name {
+    display: flex;
+}
+
+.input {
+    width: 100% !important;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    height: 48px;
+    max-width: 100%;
+    padding: 8px 8px 8px 16px;
+}
+
+.check-input {
+    margin: 0 -8px 0 3px;
+    vertical-align: top;
+    font-size: 20px;
+    font-weight: normal;
+    color: #e4434b;
+}
+
+.button-sub {
+    background: #0066cc;
+    color: #fff;
+    min-height: 40px;
+    min-width: 160px;
+    z-index: 20;
+    margin-top: 12px;
+    padding: 8px 27px !important;
+    order: 1px solid #0066cc;
+    border-radius: 8px !important;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+}

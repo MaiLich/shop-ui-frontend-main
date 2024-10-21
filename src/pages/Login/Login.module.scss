@@ -1,0 +1,254 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.login-page {
+    max-width: 1185px;
+    min-height: 200px;
+    margin: auto;
+    width: 100%;
+    padding: 40px 15px 160px;
+    text-align: left;
+}
+
+.page {
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.customer-blocks {
+    overflow: hidden;
+    margin: 0 0 30px;
+}
+
+.new-wrapper {
+    width: 53%;
+    float: left;
+    margin: 0;
+}
+
+.topic-block {
+    margin: 0;
+}
+
+.topic-block-body {
+    text-align: justify;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.img {
+    width: 100%;
+}
+
+.returning-wrapper {
+    width: 40%;
+    float: right;
+    margin: 0;
+    position: relative;
+}
+
+.returning-wrapper form {
+    width: 100%;
+}
+
+.page-title {
+    min-height: 50px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    border-bottom: 0px;
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.page-title h1 {
+    margin-bottom: 0;
+    padding: 16px 0;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 54px;
+    color: #1d1d1f;
+}
+
+.form-fields {
+    padding: 10px 0 0;
+    background: unset;
+    border: unset;
+    min-height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.inputs {
+    white-space: unset;
+    text-align: left;
+    position: relative;
+    margin: 0 0 15px;
+    font-size: 0;
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.inputs label {
+    width: auto;
+    text-align: left;
+    font-size: 15px;
+    line-height: 24px;
+    color: #1d1d1f;
+    margin-bottom: 0;
+    font-weight: 400;
+    display: block;
+    margin: 0 10px 0 0;
+}
+
+label,
+label + * {
+    vertical-align: middle;
+}
+
+.returning-wrapper input[type='text'],
+input[type='password'] {
+    max-width: 100%;
+    width: 100%;
+    height: 48px;
+    float: left;
+    background: #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    padding: 8px;
+    padding-left: 16px !important;
+    vertical-align: middle;
+    font-size: 15px !important;
+    color: #777;
+}
+
+.field-validation-valid {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    color: #4cb17c;
+}
+
+.reversed {
+    white-space: normal;
+    text-align: start;
+    margin: 0 0 20px;
+}
+
+.reversed input[type='checkbox'] {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-top: 8px;
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 0;
+    color: #444;
+    vertical-align: middle;
+}
+
+.reversed label {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #86868b;
+    display: inline-block;
+    margin: 5px;
+}
+
+.reversed * {
+    display: inline-block;
+    width: auto;
+    margin: 5px;
+    font-size: 14px;
+    color: #444;
+}
+
+.forgot-password {
+    float: right;
+}
+
+.link-forgot-password {
+    color: #0066cc;
+}
+
+.buttons {
+    background-color: unset;
+    padding: 0;
+    margin-bottom: 16px;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.login-button {
+    background: #0066cc;
+    border-radius: 8px;
+    width: 100%;
+    min-height: 48px;
+    min-width: 140px;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttons-forgot {
+    display: flex;
+    align-items: baseline;
+}
+
+.buttons-forgot label {
+    color: #1d1d1f;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.register-button {
+    background: unset;
+    color: #0066cc;
+    padding: 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: none;
+    min-width: 140px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.validation-summary-errors {
+    width: 100%;
+    display: block;
+    text-align: left;
+    margin: 0 0 10px;
+    font-size: 13px;
+    color: #e4434b;
+    float: left;
+    ul {
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+}

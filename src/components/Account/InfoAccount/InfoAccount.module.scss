@@ -1,0 +1,401 @@
+.wrapper {
+    margin-top: 90px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    width: 70.7%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.page-title-wrapper {
+    border-bottom: 1px solid #cacaca;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.page-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0;
+}
+
+.des {
+    margin-top: 10px;
+}
+
+.box-account-information {
+    display: flex;
+    margin: 0 -30px;
+    flex-wrap: wrap;
+}
+
+.login-information {
+    width: 50%;
+    padding: 0 30px;
+    margin-bottom: 40px;
+}
+
+.form-edit-account {
+    width: 100%;
+}
+
+.fieldset {
+    margin-bottom: 0;
+    border: 0;
+    margin: 0 0 16px;
+    padding: 0;
+    letter-spacing: -0.31em;
+}
+
+.fieldset > * {
+    letter-spacing: normal;
+}
+
+.fieldset > .field {
+    box-sizing: border-box;
+    margin: 0 0 16px;
+}
+
+.legend {
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 0 25px;
+}
+
+.fieldset > .legend {
+    padding: 0;
+    box-sizing: border-box;
+    float: left;
+}
+
+.legend + div {
+    clear: both;
+}
+
+.login-information p {
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    color: #000;
+}
+
+.box-information span {
+    margin-right: 10px;
+}
+
+.box-information {
+    strong {
+        font-weight: 600;
+    }
+}
+
+.choice {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.fieldset > .choice {
+    position: relative;
+}
+
+.fieldset > .field input[type='checkbox'][id] {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    margin: 2px 5.5px 0 0;
+    top: 2px;
+    border: #000;
+}
+.field > .label {
+    display: block;
+    position: relative;
+    min-height: 18px;
+    padding-left: 30px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.fieldset > .field:after {
+    content: '';
+    display: table;
+}
+
+.password {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.field:not(.choice) > .label {
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.box-account-information .fieldset > .required > .label::after {
+    content: '*';
+    color: #e40a0a;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 0 0 4px;
+    line-height: 19px;
+}
+
+.password .control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text {
+    order: 0;
+    z-index: 2;
+    color: #000;
+    background: #f1f1f1;
+    background-clip: padding-box;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 48px;
+    line-height: 1.5;
+    padding: 0 15px;
+    vertical-align: baseline;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.password-strength-meter {
+    height: auto;
+    line-height: 20px;
+    padding: 5px 15px;
+    font-size: 13px;
+    display: none;
+    background-color: #f4f4f4;
+    position: relative;
+    z-index: 1;
+}
+
+.mage-error[generated] {
+    color: #e74949;
+    font-size: 1.3rem;
+    margin-top: 7px;
+}
+
+.actions-toolbar > .primary {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.actions-toolbar .action {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #0066cc;
+    background: #0066cc;
+    padding: 13px;
+    margin: 0 0 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.personal-information {
+    width: 50%;
+    padding: 0 30px;
+}
+
+.field-group-name {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -10px;
+}
+
+.field-name-lastname {
+    order: -1;
+}
+
+.field-group-name > .field {
+    width: 50%;
+    padding: 0 10px;
+    margin-bottom: 25px;
+    flex-grow: 1;
+}
+
+.field-group-name > .required > .label:after {
+    content: '*';
+    color: #e40a0a;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 0 0 4px;
+}
+
+.field:not(.choice) > .label {
+    line-height: 19px;
+}
+
+.field-group-name > .field .input-text {
+    font-weight: 700;
+    color: #000;
+    background: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    font-size: 15px;
+    height: 48px;
+    line-height: 1.5;
+    padding: 0 15px;
+    vertical-align: baseline;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.email {
+    display: block !important;
+}
+.control {
+    width: 100%;
+    position: relative;
+}
+
+.fieldset > .field:not(.choice) .control {
+    float: none;
+}
+
+.email input[type='checkbox'] {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    top: 2px;
+}
+
+.email input[type='checkbox'] + label {
+    color: #525252;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    z-index: 10;
+}
+
+.email input[type='checkbox'] + label .cancel {
+    display: none;
+}
+
+.email .disabled {
+    opacity: 1;
+    pointer-events: none;
+}
+
+.email .input-text {
+    font-weight: 500;
+    color: #000;
+    background: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    font-size: 15px;
+    height: 48px;
+    line-height: 1.5;
+    padding: 0 15px;
+    vertical-align: baseline;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.field-gender .control {
+    padding-top: 5px;
+}
+
+.field-gender .control label {
+    margin-right: 53px;
+    cursor: pointer;
+    color: #333;
+}
+
+.control input[type='radio']:checked {
+    border-color: #000;
+    background: #000;
+    box-shadow: inset 0 0 0 3px #fff;
+}
+
+.control input[type='radio'] {
+    vertical-align: top;
+    margin: 0 8px 0 0;
+    width: 18px;
+    height: 18px;
+    appearance: none;
+    border: 1px solid #9b9b9b;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.label-note {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 16px;
+}
+
+.field-birthday .control {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.field-birthday .control select {
+    width: calc((100% - 60px) / 3);
+    width: -moz-calc((100% - 60px)/3);
+    width: -webkit-calc((100% - 60px)/3);
+    width: -o-calc((100% - 60px)/3);
+    background-position: right 10px center;
+}
+
+.fieldset .field select {
+    background-color: #ffffff;
+    border: 1px solid #e4e4e4;
+    background-position: right 20px center;
+    background-repeat: no-repeat;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxNiAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcuOTk5OTggOUM3Ljc0OTA3IDkgNy40OTgxOSA4LjkwMzk2IDcuMzA2OSA4LjcxMjI5TDEuMjg3MiAyLjY3Nzc2QzAuOTA0MjY3IDIuMjkzODggMC45MDQyNjcgMS42NzE1IDEuMjg3MiAxLjI4Nzc5QzEuNjY5OTcgMC45MDQwNzEgMi4yOTA3MSAwLjkwNDA3MSAyLjY3MzY3IDEuMjg3NzlMNy45OTk5OCA2LjYyNzQ4TDEzLjMyNjMgMS4yODc5N0MxMy43MDkyIDAuOTA0MjU3IDE0LjMyOTkgMC45MDQyNTcgMTQuNzEyNyAxLjI4Nzk3QzE1LjA5NTggMS42NzE2OSAxNS4wOTU4IDIuMjk0MDcgMTQuNzEyNyAyLjY3Nzk0TDguNjkzMDYgOC43MTI0OEM4LjUwMTY3IDguOTA0MTggOC4yNTA3OSA5IDcuOTk5OTggOVoiIGZpbGw9ImJsYWNrIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjAuNSIvPgo8L3N2Zz4K);
+    appearance: none;
+    color: #000;
+    border-radius: 8px;
+    font-size: 15px;
+    height: 48px;
+    line-height: 1.5;
+    padding: 5.5px 12px 4px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    &:disabled {
+        opacity: 0.5;
+    }
+}

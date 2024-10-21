@@ -1,0 +1,146 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.title-list {
+    line-height: 45px;
+    font-size: 30px;
+    margin: 0;
+    border-bottom: unset;
+    font-weight: bold;
+    color: #1d1d1f;
+    padding-bottom: 10px;
+}
+
+.item-grid-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-grid-box {
+    width: 285px;
+    height: 408px;
+    background: #ffffff;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    padding: 24px 20px 16px 20px;
+    cursor: pointer;
+    &:hover {
+        border-color: #02010100;
+        box-shadow: 1px 1px 28px 0px rgb(0 0 0 / 12%);
+    }
+}
+
+.item-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    position: relative;
+}
+
+.icon {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    min-height: 50px;
+    top: -15px;
+    right: -8px;
+    z-index: 2;
+}
+
+.icon-img {
+    max-width: 100px;
+    max-height: 50px;
+}
+
+.item-img {
+    width: 240px;
+    height: 240px;
+    margin: 20px 0px 0px 0px;
+}
+
+.product {
+    position: absolute;
+    top: -86px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1d1d1f;
+    min-height: 54px;
+    width: 100%;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1d1d1f;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    &:hover {
+        color: #0066cc;
+    }
+}
+
+.price {
+    width: 245px;
+    height: 24px;
+}
+
+.actual-price {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0066cc;
+    margin-right: 5px;
+}
+
+.old-price {
+    color: #86868b;
+    margin: 0 5px 0 5px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.title_price_percent {
+    width: 100%;
+    font-size: 13px;
+    line-height: 20px;
+    border-top: 1px solid #efefef;
+    padding-top: 8px;
+    color: #86868b;
+}
+
+.price_percent {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: #1d1d1f;
+    padding-left: 5px;
+}

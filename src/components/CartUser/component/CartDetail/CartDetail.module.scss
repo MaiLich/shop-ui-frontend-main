@@ -1,0 +1,210 @@
+.wrapper {
+    width: 100%;
+}
+
+.cart-detail {
+    width: 100%;
+    padding: 16px 16px;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.table-wrapper {
+    border-radius: 0;
+    padding: 0;
+    overflow-x: auto;
+}
+
+.cart {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+colgroup {
+    display: table-column-group;
+}
+
+col {
+    display: table-column;
+}
+
+.cart thead {
+    height: 54px;
+    border-bottom: 1px solid #d2d2d7;
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.cart th {
+    border-style: none !important;
+    font-weight: 700;
+    font-size: 15px;
+    color: #1d1d1f;
+    min-height: 0px;
+    vertical-align: top;
+    margin: 16px 0 8px 20px !important;
+    padding: 16px 16px;
+    border-width: 1px 1px 0;
+    border-color: #ddd;
+    white-space: nowrap;
+    text-align: -webkit-match-parent;
+}
+
+.cart tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.cart tbody tr {
+    border-top: 1px solid #ebebeb;
+}
+
+.cart td {
+    border-style: none !important;
+    border-color: transparent #ddd #ddd;
+    border-width: 1px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #1d1d1f;
+    min-height: 0px;
+    vertical-align: top;
+    padding: 20px 16px;
+}
+
+.item-img {
+    opacity: 0.99;
+    border: none;
+    vertical-align: middle;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.product {
+    min-width: 225px;
+    text-align: left;
+}
+
+.item-name {
+    font-weight: bold;
+    color: #444;
+    &:hover {
+        color: #0066cc;
+        text-decoration: none;
+    }
+}
+
+.attributes {
+    margin: 3px 0;
+    font-size: 15px;
+    color: #86868b;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.edit-item {
+    margin: 10px 0 0;
+}
+
+.edit-link {
+    font-weight: normal;
+    color: #0066cc;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.unit-price {
+    white-space: nowrap;
+}
+
+.quantity {
+    min-width: 125px;
+}
+
+.cart-quantity-input {
+    display: inline-flex;
+    padding: 6px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--background-main, #f5f5f7);
+    gap: 20px;
+}
+
+.cart-quantity-input .icon-quantity {
+    cursor: pointer;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.cart-quantity-input input[type='text'] {
+    background-color: #f5f5f7;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0px !important;
+    width: 30px !important;
+    height: 24px !important;
+    border: none !important;
+    color: #515154;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.subtotal {
+    display: none;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+.remove-btn {
+    width: 14px;
+    height: 18px;
+    border: 0;
+    background: url('https://shopdunk.com/images/uploaded-source/icon/remove-cart.png') center no-repeat;
+    position: relative;
+    top: 8px;
+    cursor: pointer;
+}
+
+.cart-options {
+    width: 100%;
+}
+
+.common-button {
+    margin: 0;
+    padding: 0;
+    border-radius: 0px 0px 8px 8px;
+    text-align: right;
+}
+
+.common-button > button {
+    display: inline-block;
+    min-width: 180px;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background: #fff !important;
+    border: 1px solid #0066cc !important;
+    border-radius: 8px !important;
+    color: #0066cc !important;
+    cursor: pointer;
+}
+
+.continue-shopping-button {
+    display: inline-block;
+    min-width: 180px;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background: #fff !important;
+    border: 1px solid #0066cc !important;
+    border-radius: 8px !important;
+    color: #0066cc !important;
+    cursor: pointer;
+}

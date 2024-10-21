@@ -1,0 +1,111 @@
+.footer {
+    background-color: #1d1d1f;
+    text-align: center;
+    width: 100%;
+}
+.footer-upper {
+    border-bottom: 1px solid #515154;
+    padding: 64px 0px 21px;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    width: 1200px;
+}
+.follow-us {
+    width: 30% !important;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.image {
+    max-width: 184px;
+    max-height: 48px;
+    opacity: 1;
+}
+
+.ft_gioithieu {
+    margin: 10px 0;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #d2d2d7;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.social {
+    padding-bottom: 30px;
+}
+
+.information {
+    order: 2;
+    width: 25%;
+    padding-left: 60px;
+    float: right;
+}
+
+.title {
+    color: #d2d2d7;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.list {
+    text-align: left;
+    font-size: 14px;
+    li {
+        color: #86868b;
+        font-size: 13px;
+        line-height: 28px;
+        list-style: none;
+    }
+}
+
+.inf-list {
+    color: #86868b;
+    cursor: pointer;
+}
+
+.customer-service {
+    order: 3;
+    width: 25%;
+    padding-left: 60px;
+    float: right;
+}
+
+.footer .my-account {
+    order: 4;
+    width: 25%;
+    padding-left: 60px;
+    float: right;
+}
+
+.footer-lower {
+    width: 1200px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 20px 0px 32px 0px;
+}
+.inf-lower {
+    float: left;
+    text-align: left;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-disclaimer {
+    font-size: 13px;
+    line-height: 20px;
+    color: #515154;
+}
+
+.f-image {
+    float: right;
+    width: 139px;
+}
